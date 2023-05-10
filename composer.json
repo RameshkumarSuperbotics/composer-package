@@ -3,8 +3,19 @@
     "description": "Test Package",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "ITJL",
+            "email": "rameshkumar@superbotics.in"
+        }
+    ],
     "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.*"
-    }
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComposerPackage\\": "src"
+        }
+    },
+    "minimum-stability": "alpha"
 }
