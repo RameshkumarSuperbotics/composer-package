@@ -1,0 +1,10 @@
+{
+    "name": "itjl/composer-package",
+    "description": "Test Package",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    }
+}
